@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>SSMG</title>
+    <script>
+      // Save the current URL and redirect to the app root.
+      // index.html will read sessionStorage.redirect and restore the path
+      // so React Router renders the correct route.
+      sessionStorage.redirect = location.href;
+    </script>
+    <meta http-equiv="refresh" content="0;URL='/ssmg/'" />
+  </head>
+  <body></body>
+</html>
