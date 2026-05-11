@@ -1,0 +1,180 @@
+{
+  "usuarioActivo": {
+    "id": "u006",
+    "nombre": "Diego",
+    "apellido": "Morales Choque",
+    "email": "d.morales@usfx.bo",
+    "rol": "tribunal",
+    "ci": "5678901",
+    "telefono": "68901234",
+    "carrera": "Ingeniería de Sistemas"
+  },
+  "defensasAsignadas": [
+    {
+      "id": "d003",
+      "proyectoId": "p007",
+      "proyectoTitulo": "Diseño de Red de Sensores IoT para Campus Universitario",
+      "estudiante": { "id": "u014", "nombre": "Adrián", "apellido": "Mamani Flores" },
+      "modalidad": "MOD-PRG",
+      "tipo": "publica",
+      "fecha": "2026-05-10T09:00:00Z",
+      "sala": "Aula Magna",
+      "estado": "realizada",
+      "rolEnTribunal": "vocal1",
+      "acta": "acta001"
+    },
+    {
+      "id": "d004",
+      "proyectoId": "p001",
+      "proyectoTitulo": "Sistema de Gestión de Biblioteca Digital",
+      "estudiante": { "id": "u008", "nombre": "Ana", "apellido": "García Torrez" },
+      "modalidad": "MOD-TES",
+      "tipo": "privada",
+      "fecha": "2026-05-10T14:00:00Z",
+      "sala": "Sala de Defensa 2",
+      "estado": "programada",
+      "rolEnTribunal": "vocal1",
+      "acta": null
+    },
+    {
+      "id": "d005",
+      "proyectoId": "p006",
+      "proyectoTitulo": "Plataforma Colaborativa para Gestión de Tesis",
+      "estudiante": { "id": "u015", "nombre": "Valeria", "apellido": "Chumacero Paz" },
+      "modalidad": "MOD-TES",
+      "tipo": "publica",
+      "fecha": "2026-05-20T10:00:00Z",
+      "sala": "Aula Magna",
+      "estado": "programada",
+      "rolEnTribunal": "presidente",
+      "acta": null
+    }
+  ],
+  "actasPendientesFirma": [
+    {
+      "id": "acta001",
+      "proyectoId": "p007",
+      "proyectoTitulo": "Diseño de Red de Sensores IoT para Campus Universitario",
+      "estudiante": "Adrián Mamani Flores",
+      "tipoDefensa": "pública",
+      "sala": "Aula Magna",
+      "fechaApertura": "2026-05-10T09:00:00Z",
+      "fechaCierre": "2026-05-10T10:00:00Z",
+      "notaDocumento": 38,
+      "notaDefensa": null,
+      "firmas": [
+        { "rol": "Presidente", "nombre": "Roberto Méndez Villca", "firmado": true, "fechaFirma": "2026-05-10T09:08:00Z" },
+        { "rol": "Vocal 1", "nombre": "Diego Morales Choque", "firmado": false, "fechaFirma": null },
+        { "rol": "Vocal 2", "nombre": "Sofía Castro Medina", "firmado": false, "fechaFirma": null }
+      ]
+    },
+    {
+      "id": "acta002",
+      "proyectoId": "p008",
+      "proyectoTitulo": "Sistema de Monitoreo Ambiental con Visión Artificial",
+      "estudiante": "Rodrigo Salazar Arce",
+      "tipoDefensa": "privada",
+      "sala": "Sala de Defensa 1",
+      "fechaApertura": "2026-05-09T15:00:00Z",
+      "fechaCierre": "2026-05-09T16:00:00Z",
+      "notaDocumento": 42,
+      "notaDefensa": null,
+      "firmas": [
+        { "rol": "Presidente", "nombre": "Roberto Méndez Villca", "firmado": true, "fechaFirma": "2026-05-09T15:05:00Z" },
+        { "rol": "Vocal 1", "nombre": "Diego Morales Choque", "firmado": true, "fechaFirma": "2026-05-09T15:22:00Z" },
+        { "rol": "Vocal 2", "nombre": "Valeria Quispe Mamani", "firmado": false, "fechaFirma": null }
+      ]
+    }
+  ],
+  "historialDefensas": [
+    {
+      "id": "d_hist_001",
+      "proyectoTitulo": "Sistema de Control de Acceso con Biometría",
+      "estudiante": "Roberto Quispe Blanco",
+      "modalidad": "MOD-PRG",
+      "tipo": "publica",
+      "fecha": "2026-03-20T09:00:00Z",
+      "notaFinal": 78,
+      "resultado": "aprobado",
+      "rolEnTribunal": "vocal1"
+    },
+    {
+      "id": "d_hist_002",
+      "proyectoTitulo": "Módulo de Reportería para ERP Municipal",
+      "estudiante": "Patricia Conde Rivas",
+      "modalidad": "MOD-TES",
+      "tipo": "publica",
+      "fecha": "2026-02-05T10:00:00Z",
+      "notaFinal": 82,
+      "resultado": "aprobado",
+      "rolEnTribunal": "vocal2"
+    },
+    {
+      "id": "d_hist_003",
+      "proyectoTitulo": "Plataforma de Tutorías Virtuales Adaptativas",
+      "estudiante": "Ernesto Villanueva Cruz",
+      "modalidad": "MOD-TES",
+      "tipo": "privada",
+      "fecha": "2025-11-18T14:00:00Z",
+      "notaFinal": 61,
+      "resultado": "reprobado",
+      "rolEnTribunal": "presidente"
+    },
+    {
+      "id": "d_hist_004",
+      "proyectoTitulo": "App Móvil de Gestión de Residuos Sólidos",
+      "estudiante": "Sandra Torrez Medina",
+      "modalidad": "MOD-PRG",
+      "tipo": "publica",
+      "fecha": "2025-09-30T09:00:00Z",
+      "notaFinal": 74,
+      "resultado": "aprobado",
+      "rolEnTribunal": "vocal1"
+    },
+    {
+      "id": "d_hist_005",
+      "proyectoTitulo": "Internado Empresarial — Softland Bolivia",
+      "estudiante": "Héctor Arancibia Luna",
+      "modalidad": "MOD-TRD",
+      "tipo": "publica",
+      "fecha": "2025-07-12T11:00:00Z",
+      "notaFinal": 88,
+      "resultado": "aprobado",
+      "rolEnTribunal": "vocal2"
+    }
+  ],
+  "notificaciones": [
+    {
+      "id": "n001",
+      "titulo": "Acta pendiente de firma — IoT Campus",
+      "mensaje": "El acta de la defensa de Adrián Mamani está abierta. El Presidente ya firmó. Procede a firmar como Vocal 1.",
+      "tipo": "urgente",
+      "leida": false,
+      "fecha": "2026-05-10T09:10:00Z"
+    },
+    {
+      "id": "n002",
+      "titulo": "Acta próxima a vencer — Monitoreo Ambiental",
+      "mensaje": "El acta de Rodrigo Salazar cierra pronto. Vocal 2 (Valeria Quispe) aún no ha firmado.",
+      "tipo": "alerta",
+      "leida": false,
+      "fecha": "2026-05-09T15:30:00Z"
+    },
+    {
+      "id": "n003",
+      "titulo": "Defensa asignada — Biblioteca Digital",
+      "mensaje": "Has sido asignado como Vocal 1 en la defensa privada de Ana García hoy a las 14:00 en Sala de Defensa 2.",
+      "tipo": "info",
+      "leida": false,
+      "fecha": "2026-05-10T08:00:00Z"
+    },
+    {
+      "id": "n004",
+      "titulo": "Nueva asignación de tribunal",
+      "mensaje": "Eres Presidente del tribunal para la defensa pública de Valeria Chumacero el 20/05/2026.",
+      "tipo": "info",
+      "leida": true,
+      "fecha": "2026-05-07T09:00:00Z"
+    }
+  ]
+}

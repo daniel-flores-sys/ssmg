@@ -1,0 +1,63 @@
+{
+  "usuarioActivo": {
+    "id": "u005",
+    "nombre": "Marco",
+    "apellido": "Torres Aliaga",
+    "email": "m.torres@techbolivia.com",
+    "rol": "tutor-externo",
+    "ci": "4567890",
+    "telefono": "69012345",
+    "institucion": "TechBolivia S.R.L.",
+    "cargo": "Jefe de Desarrollo de Software"
+  },
+  "proyecto": {
+    "id": "p003",
+    "titulo": "Práctica Profesional en Empresa TechBolivia",
+    "descripcion": "Internado en el área de desarrollo de software de TechBolivia S.R.L., desarrollando módulos del sistema ERP.",
+    "modalidad": "MOD-TRD",
+    "estado": "defensa-publica-programada",
+    "carrera": "Ingeniería de Sistemas",
+    "fechaRegistro": "2024-10-05T08:00:00Z",
+    "estudiante": { "id": "u010", "nombre": "María", "apellido": "Rodríguez Poma", "ci": "7654321" },
+    "tutorInterno": { "id": "u003", "nombre": "Pedro", "apellido": "Vargas Ríos" },
+    "porcentajeAvance": 95,
+    "fechaInicioInternado": "2024-10-07T08:00:00Z",
+    "fechaFinInternado": "2025-04-07T17:00:00Z"
+  },
+  "informes": [
+    {
+      "id": "inf001",
+      "mes": "Octubre 2024",
+      "descripcion": "La estudiante se integró al equipo de desarrollo. Aprendizaje del stack tecnológico y primeras tareas de codificación.",
+      "notaEvaluacion": null,
+      "fechaEmision": "2024-10-31T17:00:00Z",
+      "estado": "aprobado"
+    },
+    {
+      "id": "inf002",
+      "mes": "Noviembre 2024",
+      "descripcion": "Desarrollo del módulo de facturación electrónica. Cumplimiento de entregables en tiempo y forma.",
+      "notaEvaluacion": null,
+      "fechaEmision": "2024-11-30T17:00:00Z",
+      "estado": "aprobado"
+    },
+    {
+      "id": "inf003",
+      "mes": "Enero 2025",
+      "descripcion": "Implementación del módulo de reportes. Excelente iniciativa y calidad de código.",
+      "notaEvaluacion": 14,
+      "fechaEmision": "2025-01-31T17:00:00Z",
+      "estado": "aprobado"
+    }
+  ],
+  "notificaciones": [
+    {
+      "id": "n001",
+      "titulo": "Defensa pública programada",
+      "mensaje": "La defensa pública de María Rodríguez es el 15/05/2025. Se requiere tu presencia como referente institucional.",
+      "tipo": "info",
+      "leida": false,
+      "fecha": "2025-05-08T09:00:00Z"
+    }
+  ]
+}
